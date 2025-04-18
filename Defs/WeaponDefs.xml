@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Projectiles __________-->
+
+    <!-- Lecter -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_Lecter</defName>
+        <label>Lecter</label>
+        <description>A robust military grade assault rifle. Often used by Nanotrasen security, especially on station 14, because of its reliability and price. The blueprints seem to have found themselves on the Rim.</description>
+        <graphicData>
+            <texPath>Weapons/Lecter</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>50000</WorkToMake>
+            <Mass>4.2</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.70</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workAmount>18000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Lecter</defaultProjectile>
+                <warmupTime>1.1</warmupTime>
+                <range>38.0</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <soundCast>Archeon_Shot_Lecter</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- Enforcer -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_Enforcer</defName>
+        <label>Enforcer</label>
+        <description>The ancient design of the pump shotgun using more modern materials and techniques. Often found in the hands of Warden's on Nanotrasen security teams.</description>
+        <graphicData>
+            <texPath>Weapons/Enforcer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>32000</WorkToMake>
+            <Mass>4.8</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <WoodLog>20</WoodLog>
+        </costList>
+        <recipeMaker>
+            <workAmount>15000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Enforcer</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>18.0</range>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>Archeon_Shot_Enforcer</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- Laser Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_LaserRifle</defName>
+        <label>laser rifle</label>
+        <description>A cheap and easily mass-produced laser rifle, often the backbone of PMCs and NT security teams. Doesn't hit very hard, but its design makes it very easy for anyone to use.</description>
+        <graphicData>
+            <texPath>Weapons/LaserRifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>3.2</Mass>
+            <AccuracyTouch>1.0</AccuracyTouch>
+            <AccuracyShort>1.0</AccuracyShort>
+            <AccuracyMedium>1.0</AccuracyMedium>
+            <AccuracyLong>1.0</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <Plasteel>30</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <workAmount>25000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>MultiAnalyzer</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_LaserRifle</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>37.0</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Archeon_Shot_LaserRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- C20 -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_C20_A</defName>
+        <label>C20</label>
+        <description>A sleek and lightweight yet incredibly powerful submachine gun designed by The Syndicate, often associated with nuclear operatives. Nobody knows how these things ended up on the Rim.</description>
+        <graphicData>
+            <texPath>Weapons/C20</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>1.0</AccuracyTouch>
+            <AccuracyShort>0.98</AccuracyShort>
+            <AccuracyMedium>0.53</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>65</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workAmount>20000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_C20_A</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>34.0</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>Archeon_Shot_C20</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- L6 SAW -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_L6SAW</defName>
+        <label>L6 SAW</label>
+        <description>A traditionally designed light machine gun with the stock removed. Bolsters a pleasantly designed wooden grip and a large box magazine. It is surprisingly lightweight for it's size.</description>
+        <graphicData>
+            <texPath>Weapons/L6SAW</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>48000</WorkToMake>
+            <Mass>7.0</Mass>
+            <AccuracyTouch>0.48</AccuracyTouch>
+            <AccuracyShort>0.58</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.31</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>9</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workAmount>22000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_L6SAW</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>20.0</range>
+                <burstShotCount>12</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>Archeon_Shot_L6SAW</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- Chinalake -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Archeon_Gun_Chinalake</defName>
+        <label>Chinalake</label>
+        <description>A ancient grenade launcher that features a tube fed magazine. Dates all the way back to old earth, yet still highly effective.</description>
+        <graphicData>
+            <texPath>Weapons/Chinalake</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>70000</WorkToMake>
+            <Mass>5.5</Mass>
+            <AccuracyTouch>0.40</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.90</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <workAmount>30000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>Mortars</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Grenade_Chinalake</defaultProjectile>
+                <warmupTime>2.0</warmupTime>
+                <range>44.0</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Archeon_Shot_Chinalake</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!-- Energy Sword -->
+
+    <ThingDef ParentName="BaseMeleeWeapon">
+        <defName>Weapon_EnergySword</defName>
+        <label>energy sword</label>
+        <description>A extremely loud and bright blade made from pure concentrated energy. Cuts through walls and unarmored opponents like butter. The off switch seems to be broken.</description>
+        <graphicData>
+            <texPath>Weapons/EnergySword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>0.7</Mass>
+            <MeleeWeapon_AverageDPS>18</MeleeWeapon_AverageDPS>
+        </statBases>
+        <costList>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <workAmount>20000</workAmount>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>LongBlades</researchPrerequisite>
+        </recipeMaker>
+        <smeltable>true</smeltable>
+        <weaponClasses>
+            <li>MeleePiercer</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>blade</label>
+                <capacities>
+                    <li>Stab</li>
+                    <li>Cut</li>
+                </capacities>
+                <power>35</power>
+                <cooldownTime>1.2</cooldownTime>
+                <armorPenetration>0.7</armorPenetration>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--__________ Projectiles __________-->
+
+    <!-- Lecter Projectile -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Lecter</defName>
+        <label>lecter bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>70</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- Enforcer Projectile -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Enforcer</defName>
+        <label>enforcer shell</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>22</damageAmountBase>
+            <stoppingPower>3.2</stoppingPower>
+            <armorPenetrationBase>0.16</armorPenetrationBase>
+            <speed>55</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- Laser Rifle Projectile -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_LaserRifle</defName>
+        <label>laser beam</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
+            <speed>90</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- C20 Projectile -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_C20_A</defName>
+        <label>C20 bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- L6 SAW Projectile -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_L6SAW</defName>
+        <label>L6 SAW bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- Chinalake Projectile -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Grenade_Chinalake</defName>
+        <label>chinalake grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <explosionRadius>5.5</explosionRadius>
+            <speed>40</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

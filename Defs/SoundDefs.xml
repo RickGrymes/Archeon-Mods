@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Lecter -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_Lecter</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/Lecter</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- Enforcer -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_Enforcer</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/Enforcer</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- Laser Rifle -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_LaserRifle</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/LaserRifle</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- C20 -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_C20</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/C20</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- L6 SAW -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_L6SAW</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/L6SAW</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- Chinalake -->
+
+    <SoundDef>
+        <defName>Archeon_Shot_Chinalake</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <name>Shot</name>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapon/Chinalake</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40.58823~40.58823</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

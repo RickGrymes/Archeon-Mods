@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <!-- About Information -->
+
+    <packageId>Archeon.Rick.Zaahir</packageId>
+    <author>Archeon, Rick, Zaahir</author>
+    <name>Archeon</name>
+    <description>Archeons Mod.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+    </modDependencies>
+    <loadAfter>
+    </loadAfter>
+
+</ModMetaData>
