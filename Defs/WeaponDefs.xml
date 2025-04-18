@@ -284,6 +284,7 @@
                 <defaultProjectile>Grenade_Chinalake</defaultProjectile>
                 <warmupTime>2.0</warmupTime>
                 <range>44.0</range>
+                <forcedMissRadius>1.2</forcedMissRadius>
                 <soundCast>Archeon_Shot_Chinalake</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
