@@ -151,7 +151,7 @@
 
     <!-- C20 -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseGunWithQuality">
         <defName>Archeon_Gun_C20_A</defName>
         <label>C20</label>
         <description>A sleek and lightweight yet incredibly powerful submachine gun designed by The Syndicate, often associated with nuclear operatives. Nobody knows how these things ended up on the Rim.</description>
@@ -173,13 +173,6 @@
             <Steel>65</Steel>
             <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
-        <recipeMaker>
-            <workAmount>20000</workAmount>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-        </recipeMaker>
         <smeltable>true</smeltable>
         <verbs>
             <li>
@@ -199,7 +192,7 @@
 
     <!-- L6 SAW -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseGunWithQuality">
         <defName>Archeon_Gun_L6SAW</defName>
         <label>L6 SAW</label>
         <description>A traditionally designed light machine gun with the stock removed. Bolsters a pleasantly designed wooden grip and a large box magazine. It is surprisingly lightweight for it's size.</description>
@@ -221,13 +214,6 @@
             <Steel>75</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
-        <recipeMaker>
-            <workAmount>22000</workAmount>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-        </recipeMaker>
         <smeltable>true</smeltable>
         <verbs>
             <li>
@@ -236,8 +222,8 @@
                 <defaultProjectile>Bullet_L6SAW</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>20.0</range>
-                <burstShotCount>12</burstShotCount>
-                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <burstShotCount>10</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <soundCast>Archeon_Shot_L6SAW</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -247,7 +233,7 @@
 
     <!-- Chinalake -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseGunWithQuality">
         <defName>Archeon_Gun_Chinalake</defName>
         <label>Chinalake</label>
         <description>A ancient grenade launcher that features a tube fed magazine. Dates all the way back to old earth, yet still highly effective.</description>
@@ -269,13 +255,6 @@
             <Steel>80</Steel>
             <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
-        <recipeMaker>
-            <workAmount>30000</workAmount>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>Mortars</researchPrerequisite>
-        </recipeMaker>
         <smeltable>true</smeltable>
         <verbs>
             <li>
@@ -297,8 +276,8 @@
 
     <!-- Energy Sword -->
 
-    <ThingDef ParentName="BaseMeleeWeapon">
-        <defName>Weapon_EnergySword</defName>
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>Archeon_Weapon_EnergySword</defName>
         <label>energy sword</label>
         <description>A extremely loud and bright blade made from pure concentrated energy. Cuts through walls and unarmored opponents like butter. The off switch seems to be broken.</description>
         <graphicData>
@@ -315,13 +294,6 @@
             <ComponentIndustrial>5</ComponentIndustrial>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
-        <recipeMaker>
-            <workAmount>20000</workAmount>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>LongBlades</researchPrerequisite>
-        </recipeMaker>
         <smeltable>true</smeltable>
         <weaponClasses>
             <li>MeleePiercer</li>
@@ -333,7 +305,7 @@
                     <li>Stab</li>
                     <li>Cut</li>
                 </capacities>
-                <power>35</power>
+                <power>19</power>
                 <cooldownTime>1.2</cooldownTime>
                 <armorPenetration>0.7</armorPenetration>
             </li>
