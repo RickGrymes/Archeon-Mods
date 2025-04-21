@@ -291,7 +291,7 @@
         <identifier>Archeon_Donk_Chef</identifier>
         <title>Donk chef</title>
         <titleShort>Chef</titleShort>
-        <description>Working in the high-speed kitchens of Donk Corporation, this person mastered the art of creating hotpockets and similar products. Their days were spent perfecting recipes and ensuring every product met the company's exacting standards.</description>
+        <description>Working in the high-speed kitchens of Donk Corporation, this person mastered the art of creating Donkpockets (TM) and similar products. Their days were spent perfecting recipes and ensuring every product met the company's exacting standards.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Cooking>6</Cooking>
@@ -314,7 +314,7 @@
         <identifier>Archeon_Donk_Logistics_Manager</identifier>
         <title>Donk logistics manager</title>
         <titleShort>Logistics manager</titleShort>
-        <description>As a logistics manager for Donk Corporation, this person ensured that hotpockets and other products were delivered on time. They coordinated fleets of vehicles and optimized supply chains to keep the syndicate's operations running smoothly.</description>
+        <description>As a logistics manager for Donk Corporation, this person ensured that Donkpockets (TM) and other products were delivered on time. They coordinated fleets of vehicles and optimized supply chains to keep the syndicate's operations running smoothly.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Intellectual>5</Intellectual>
@@ -337,7 +337,7 @@
         <identifier>Archeon_Donk_Factory_Worker</identifier>
         <title>Donk factory worker</title>
         <titleShort>Factory worker</titleShort>
-        <description>This person worked on the assembly lines of Donk Corporation, producing hotpockets and similar products at an industrial scale. Their repetitive work honed their crafting skills and gave them a deep understanding of production processes.</description>
+        <description>This person worked on the assembly lines of Donk Corporation, producing Donkpockets (TM) and similar products at an industrial scale. Their repetitive work honed their crafting skills and gave them a deep understanding of production processes.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Crafting>5</Crafting>
@@ -405,7 +405,7 @@
         <identifier>Archeon_Donk_Kitchen_Helper</identifier>
         <title>Donk kitchen helper</title>
         <titleShort>Kitchen helper</titleShort>
-        <description>This child grew up assisting in a Donk Corporation test kitchen, helping prepare and package hotpockets. They developed a knack for cooking and an appreciation for efficiency in food preparation.</description>
+        <description>This child grew up assisting in a Donk Corporation test kitchen, helping prepare and package Donkpockets (TM). They developed a knack for cooking and an appreciation for efficiency in food preparation.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Cooking>2</Cooking>
