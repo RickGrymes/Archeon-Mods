@@ -61,7 +61,7 @@
         <defName>Archeon_Head_of_Security</defName>
         <identifier>Archeon_Head_of_Security</identifier>
         <title>Head of Security</title>
-        <titleShort>Security Chief</titleShort>
+        <titleShort>Head of Security</titleShort>
         <description>This person led the security department on Space Station 14, ensuring the safety of all aboard. Their vigilance and authority kept order and protected the crew from threats both internal and external.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -84,7 +84,7 @@
         <defName>Archeon_Head_of_Personnel</defName>
         <identifier>Archeon_Head_of_Personnel</identifier>
         <title>Head of Personnel</title>
-        <titleShort>Personnel Chief</titleShort>
+        <titleShort>Head of Personnel</titleShort>
         <description>As the Captain's right hand on Space Station 14, this person managed services, handled paperwork, and ensured the crew's needs were met. Their organizational skills kept the station running smoothly.</description>
         <slot>Adulthood</slot>
         <skillGains>
