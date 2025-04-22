@@ -169,6 +169,9 @@
             <AccuracyLong>0.30</AccuracyLong>
             <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
         </statBases>
+        <weaponTags>
+            <li>Archeon_Syndicate</li>
+        </weaponTags>
         <costList>
             <Steel>65</Steel>
             <ComponentIndustrial>8</ComponentIndustrial>
@@ -210,6 +213,9 @@
             <AccuracyLong>0.31</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
+        <weaponTags>
+            <li>Archeon_Syndicate</li>
+        </weaponTags>
         <costList>
             <Steel>75</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
@@ -251,6 +257,9 @@
             <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
         </statBases>
+        <weaponTags>
+            <li>Archeon_Syndicate</li>
+        </weaponTags>
         <costList>
             <Steel>80</Steel>
             <ComponentIndustrial>10</ComponentIndustrial>
@@ -289,6 +298,9 @@
             <Mass>0.7</Mass>
             <MeleeWeapon_AverageDPS>18</MeleeWeapon_AverageDPS>
         </statBases>
+        <weaponTags>
+            <li>Archeon_Syndicate</li>
+        </weaponTags>
         <costList>
             <Plasteel>40</Plasteel>
             <ComponentIndustrial>5</ComponentIndustrial>

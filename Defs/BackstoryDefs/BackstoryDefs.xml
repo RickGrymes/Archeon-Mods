@@ -26,7 +26,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -49,7 +49,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -72,7 +72,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -95,7 +95,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -117,7 +117,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -137,7 +137,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Cybersun_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -164,7 +164,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -187,7 +187,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -210,7 +210,7 @@
         <bodyTypeMale>Hulk</bodyTypeMale>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -233,7 +233,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -255,7 +255,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -276,7 +276,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Raider</li>
+            <li>Archeon_Gorlex_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -303,7 +303,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -326,7 +326,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -349,7 +349,7 @@
         <bodyTypeMale>Hulk</bodyTypeMale>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -372,7 +372,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -394,7 +394,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk_Childs</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -414,7 +414,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Donk_Childs</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -441,7 +441,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -464,7 +464,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -487,7 +487,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -510,7 +510,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -532,7 +532,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -552,7 +552,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Waffle_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -579,7 +579,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -602,7 +602,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -625,7 +625,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -648,7 +648,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -670,7 +670,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -690,7 +690,7 @@
         <workDisables />
         <requiredWorkTags />
         <spawnCategories>
-            <li>Spacer</li>
+            <li>Archeon_Interdyne_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
