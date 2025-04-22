@@ -3,6 +3,60 @@
 
     <!--__________ Backstories __________-->
 
+    <!--_______ Nanotrasen _______-->
+    
+    <!--_____ Space Station 14 _____-->
+    
+    <!--___ Adulthood ___-->
+
+    <!-- Central Commander -->
+
+    <BackstoryDef>
+        <defName>Archeon_Central_Commander</defName>
+        <identifier>Archeon_Central_Commander</identifier>
+        <title>Central Commander</title>
+        <titleShort>Commander</titleShort>
+        <description>As the Central Commander of Space Station 14, this person was the highest authority aboard, responsible for every critical decision. The fate of the station and its crew rested on their shoulders, demanding unwavering leadership and strategic insight.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Command</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Station Captain -->
+
+    <BackstoryDef>
+        <defName>Archeon_Station_Captain</defName>
+        <identifier>Archeon_Station_Captain</identifier>
+        <title>Station Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>This person served as one of the Captains of Space Station 14, second only to the Central Commander. Tasked with managing daily operations and ensuring the smooth running of the station, they balanced authority with diplomacy among the crew.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Command</li>
+        </spawnCategories>
+    </BackstoryDef>
+    
+    <!--_______ Syndicate _______-->
+    
     <!--_____ Cybersun Industries _____-->
 
     <!--___ Adulthood ___-->
