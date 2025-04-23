@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Nanotrasen Faction -->
+    
+    <FactionDef ParentName="FactionBase">
+        <defName>Archeon_Nanotrasen</defName>
+        <label>Nanotrasen</label>
+        <description>The dominant megacorporation in space, Nanotrasen operates research stations and enforces strict order. Known for advanced technology, bureaucracy, and a focus on profit and security.</description>
+        <isHidden>false</isHidden>
+       <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Nanotrasen</pawnSingular>
+        <pawnsPlural>Nanotrasens</pawnsPlural>
+        <categoryTag>Spacer</categoryTag>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Station Commander</leaderTitle>
+        <factionIconPath>World_Icon/Nanotrasen_Icon</factionIconPath>
+        <fixedName>Nanotrasen</fixedName>
+        <settlementNameMaker>Archeon_Namer_Settlement_Nanotrasen</settlementNameMaker>
+        <allowedCultures>
+            <li>Archeon_Culture_Nanotrasen</li>
+        </allowedCultures>
+        <techLevel>Spacer</techLevel>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Archeon_Nanotrasen</li>
+                    <li>Archeon_Nanotrasen</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <allowedArrivalTemperatureRange>
+            <min>-40</min>
+            <max>50</max>
+        </allowedArrivalTemperatureRange>
+        <startingResearchPoints>10000</startingResearchPoints>
+        <pawnGroupMakers>
+            <PawnGroupMaker>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <li>
+                        <kind>NanotrasenSecurityPawnKind</kind>
+                        <selectionWeight>1</selectionWeight>
+                    </li>
+                </options>
+            </PawnGroupMaker>
+            <PawnGroupMaker>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <li>
+                        <kind>NanotrasenCrewPawnKind</kind>
+                        <selectionWeight>1</selectionWeight>
+                    </li>
+                </options>
+            </PawnGroupMaker>
+        </pawnGroupMakers>
+        <color>(0.2, 0.5, 1.0, 1.0)</color>
+        <homeIconPath>UI/Icons/Factions/Nanotrasen</homeIconPath>
+    </FactionDef>
+
+    <!-- Syndicate Faction -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>Archeon_Syndicate</defName>
+        <label>Syndicate</label>
+        <description>A shadowy coalition of criminal organizations and rival corporations, the Syndicate seeks to undermine Nanotrasen through sabotage, espionage, and violence.</description>
+        <isHidden>false</isHidden>
+        <colorSpectrum>
+            <li>(0.8, 0.1, 0.1)</li>
+            <li>(0.3, 0.0, 0.0)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Syndicate agent</pawnSingular>
+        <pawnsPlural>Syndicate agents</pawnsPlural>
+        <categoryTag>Spacer</categoryTag>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Agent Commander</leaderTitle>
+        <factionIconPath>World_Icon/Syndicate_Icon</factionIconPath>
+        <fixedName>The Syndicate</fixedName>
+        <settlementNameMaker>Archeon_Namer_Settlement_Syndicate</settlementNameMaker>
+        <allowedCultures>
+            <li>Archeon_Culture_Syndicate</li>
+        </allowedCultures>
+        <techLevel>Spacer</techLevel>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Archeon_Nanotrasen</li>
+                    <li>Archeon_Nanotrasen</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <allowedArrivalTemperatureRange>
+            <min>-40</min>
+            <max>50</max>
+        </allowedArrivalTemperatureRange>
+        <startingResearchPoints>8000</startingResearchPoints>
+        <pawnGroupMakers>
+            <PawnGroupMaker>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <li>
+                        <kind>SyndicateOperativePawnKind</kind>
+                        <selectionWeight>1</selectionWeight>
+                    </li>
+                </options>
+            </PawnGroupMaker>
+            <PawnGroupMaker>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <li>
+                        <kind>SyndicateCrewPawnKind</kind>
+                        <selectionWeight>1</selectionWeight>
+                    </li>
+                </options>
+            </PawnGroupMaker>
+        </pawnGroupMakers>
+        <color>(0.8, 0.1, 0.1, 1.0)</color>
+        <homeIconPath>UI/Icons/Factions/Syndicate</homeIconPath>
+        <hostileToFaction>
+            <li>Archeon_Nanotrasen</li>
+        </hostileToFaction>
+    </FactionDef>
+
+</Defs>
