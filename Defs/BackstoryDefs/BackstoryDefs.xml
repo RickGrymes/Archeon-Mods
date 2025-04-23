@@ -16,7 +16,7 @@
         <identifier>Archeon_Central_Commander</identifier>
         <title>Central Commander</title>
         <titleShort>Commander</titleShort>
-        <description>As the Central Commander, this person was not stationed on Space Station 14, but operated from Central Command. From afar, they commanded the station remotely, making critical decisions and overseeing the fate of the crew and facility with unwavering leadership and strategic insight.</description>
+        <description>As the Central Commander, [PAWN_nameDef] was not stationed on Space Station 14, but operated from Central Command. From afar, [PAWN_pronoun] commanded the station remotely, making critical decisions and overseeing the fate of the crew and facility with unwavering leadership and strategic insight.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>4</Social>
@@ -28,18 +28,18 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Command</li>
+            <li>Archeon_Commander</li>
         </spawnCategories>
     </BackstoryDef>
-
+    
     <!-- Station Captain -->
-
+    
     <BackstoryDef>
         <defName>Archeon_Station_Captain</defName>
         <identifier>Archeon_Station_Captain</identifier>
         <title>Station Captain</title>
         <titleShort>Captain</titleShort>
-        <description>This person served as one of the Captains of Space Station 14, second only to the Central Commander. Tasked with managing daily operations and ensuring the smooth running of the station, they balanced authority with diplomacy among the crew.</description>
+        <description>[PAWN_nameDef] served as one of the Captains of Space Station 14, second only to the Central Commander. Tasked with managing daily operations and ensuring the smooth running of the station, [PAWN_pronoun] balanced authority with diplomacy among the crew.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>3</Social>
@@ -51,18 +51,18 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Command</li>
+            <li>Archeon_Captain</li>
         </spawnCategories>
     </BackstoryDef>
-
+    
     <!-- Head of Security -->
-
+    
     <BackstoryDef>
         <defName>Archeon_Head_of_Security</defName>
         <identifier>Archeon_Head_of_Security</identifier>
         <title>Head of Security</title>
-        <titleShort>Head of Security</titleShort>
-        <description>This person led the security department on Space Station 14, ensuring the safety of all aboard. Their vigilance and authority kept order and protected the crew from threats both internal and external.</description>
+        <titleShort>Security Chief</titleShort>
+        <description>[PAWN_nameDef] led the security department on Space Station 14, ensuring the safety of all aboard. [PAWN_possessive] vigilance and authority kept order and protected the crew from threats both internal and external.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Shooting>3</Shooting>
@@ -74,18 +74,18 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Command</li>
+            <li>Archeon_Head_Sec</li>
         </spawnCategories>
     </BackstoryDef>
-
+    
     <!-- Head of Personnel -->
-
+    
     <BackstoryDef>
         <defName>Archeon_Head_of_Personnel</defName>
         <identifier>Archeon_Head_of_Personnel</identifier>
         <title>Head of Personnel</title>
-        <titleShort>Head of Personnel</titleShort>
-        <description>As the Captain's right hand on Space Station 14, this person managed services, handled paperwork, and ensured the crew's needs were met. Their organizational skills kept the station running smoothly.</description>
+        <titleShort>Personnel Chief</titleShort>
+        <description>As the Captain's right hand on Space Station 14, [PAWN_nameDef] managed services, handled paperwork, and ensured the crew's needs were met. [PAWN_possessive] organizational skills kept the station running smoothly.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>3</Social>
@@ -97,18 +97,18 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Command</li>
+            <li>Archeon_Head_Per</li>
         </spawnCategories>
     </BackstoryDef>
-
+    
     <!-- Quartermaster -->
-
+    
     <BackstoryDef>
         <defName>Archeon_Quartermaster</defName>
         <identifier>Archeon_Quartermaster</identifier>
         <title>Quartermaster</title>
         <titleShort>Quartermaster</titleShort>
-        <description>This person was in charge of the cargo department on Space Station 14, responsible for ordering weapons, supplies, and ammunition. Their expertise ensured the station was always well-stocked and prepared.</description>
+        <description>[PAWN_nameDef] was in charge of the cargo department on Space Station 14, responsible for ordering weapons, supplies, and ammunition. [PAWN_possessive] expertise ensured the station was always well-stocked and prepared.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Crafting>3</Crafting>
@@ -120,166 +120,252 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Command</li>
+            <li>Archeon_Quartermaster</li>
         </spawnCategories>
     </BackstoryDef>
     
-    <!--_______ Syndicate _______-->
+    <!-- Chief Medical Officer -->
     
-    <!--_____ Cybersun Industries _____-->
-
-    <!--___ Adulthood ___-->
-
-    <!-- Cybersun prodigy -->
-
     <BackstoryDef>
-        <defName>Archeon_Cybersun_Prodigy</defName>
-        <identifier>Archeon_Cybersun_Prodigy</identifier>
-        <title>Cybersun prodigy</title>
-        <titleShort>Prodigy</titleShort>
-        <description>Raised in the high-tech halls of the Cybersun Industries, this person learned to build, repair, and innovate with machines from a young age. Their life revolved around cybernetics, AI, and relentless research.</description>
+        <defName>Archeon_Chief_Medical_Officer</defName>
+        <identifier>Archeon_Chief_Medical_Officer</identifier>
+        <title>Chief Medical Officer</title>
+        <titleShort>CMO</titleShort>
+        <description>[PAWN_nameDef] served as the senior doctor and chemist on Space Station 14, leading the medical department. [PAWN_possessive] expertise in medicine and pharmaceuticals ensured the health and safety of the crew.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Crafting>4</Crafting>
-            <Construction>3</Construction>
-            <Intellectual>3</Intellectual>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Cybersun</li>
+            <li>Archeon_Med_Officer</li>
         </spawnCategories>
     </BackstoryDef>
-
-    <!-- Cybersun engineer -->
-
+    
+    <!-- Chief Engineer -->
+    
     <BackstoryDef>
-        <defName>Archeon_Cybersun_Engineer</defName>
-        <identifier>Archeon_Cybersun_Engineer</identifier>
-        <title>Cybersun engineer</title>
-        <titleShort>Engineer</titleShort>
-        <description>As a key member of Cybersun Industries, this person specialized in designing and maintaining advanced cybernetic systems. Their expertise in robotics and AI development made them an invaluable asset in the company's relentless pursuit of innovation.</description>
+        <defName>Archeon_Chief_Engineer</defName>
+        <identifier>Archeon_Chief_Engineer</identifier>
+        <title>Chief Engineer</title>
+        <titleShort>Chief Engineer</titleShort>
+        <description>[PAWN_nameDef] was the lead engineer and atmospheric technician on Space Station 14, responsible for maintaining the station's infrastructure and overseeing the engineering department.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Crafting>5</Crafting>
             <Construction>4</Construction>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Cybersun</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Cybersun technician -->
-
-    <BackstoryDef>
-        <defName>Archeon_Cybersun_Technician</defName>
-        <identifier>Archeon_Cybersun_Technician</identifier>
-        <title>Cybersun technician</title>
-        <titleShort>Technician</titleShort>
-        <description>Trained in the intricate workings of cybernetic implants and AI systems, this person spent their days troubleshooting and optimizing Cybersun's cutting-edge technologies. Their hands-on experience with machines honed their technical skills to perfection.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Crafting>4</Crafting>
-            <Construction>3</Construction>
-            <Intellectual>3</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Cybersun</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Cybersun architect -->
-
-    <BackstoryDef>
-        <defName>Archeon_Cybersun_Architect</defName>
-        <identifier>Archeon_Cybersun_Architect</identifier>
-        <title>Cybersun architect</title>
-        <titleShort>Architect</titleShort>
-        <description>With a vision for the future, this person designed the towering structures and intricate systems that defined Cybersun Industries. Their work combined engineering precision with creative problem-solving, pushing the boundaries of what was possible.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Crafting>3</Crafting>
-            <Construction>5</Construction>
-            <Intellectual>3</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Cybersun</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--___ Childhood ___-->
-
-    <!-- Cybersun child prodigy -->
-
-    <BackstoryDef>
-        <defName>Archeon_Cybersun_Child_Prodigy</defName>
-        <identifier>Archeon_Cybersun_Child_Prodigy</identifier>
-        <title>Cybersun child prodigy</title>
-        <titleShort>Child prodigy</titleShort>
-        <description>Born into the halls of Cybersun Industries, this child displayed an exceptional aptitude for technology from an early age. They spent their youth tinkering with machines and learning advanced concepts in cybernetics and AI.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Intellectual>3</Intellectual>
             <Crafting>2</Crafting>
+            <Intellectual>1</Intellectual>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Cybersun_Child</li>
+            <li>Archeon_Chief_Engineer</li>
         </spawnCategories>
+    
     </BackstoryDef>
-
-    <!-- Cybersun tinkerer -->
-
+    
+    <!-- Research Director -->
+    
     <BackstoryDef>
-        <defName>Archeon_Cybersun_Tinkerer</defName>
-        <identifier>Archeon_Cybersun_Tinkerer</identifier>
-        <title>Cybersun tinkerer</title>
-        <titleShort>Tinkerer</titleShort>
-        <description>Growing up surrounded by advanced machinery, this child spent their days dismantling and reassembling devices. Their curiosity and hands-on experience gave them a strong foundation in engineering and problem-solving.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Crafting>3</Crafting>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Cybersun_Child</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--_____ Gorlex Marauders _____-->
-
-    <!--___ Adulthood ___-->
-
-    <!-- Gorlex raider commander -->
-
-    <BackstoryDef>
-        <defName>Archeon_Gorlex_Raider_Commander</defName>
-        <identifier>Archeon_Gorlex_Raider_Commander</identifier>
-        <title>Gorlex raider commander</title>
-        <titleShort>Gorlex commander</titleShort>
-        <description>Once a pirate captain, this person was recruited by the Gorlex Marauders to lead small squads of chaos-bringers. Their leadership was less about strategy and more about inspiring fear and loyalty through brute force and intimidation.</description>
+        <defName>Archeon_Research_Director</defName>
+        <identifier>Archeon_Research_Director</identifier>
+        <title>Research Director</title>
+        <titleShort>Research Director</titleShort>
+        <description>[PAWN_nameDef] led the research department on Space Station 14, overseeing all scientific projects and experiments. [PAWN_possessive] leadership was vital to the station's mission as a center for research and development.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Shooting>5</Shooting>
-            <Melee>4</Melee>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Research_Director</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Bartender -->
+
+    <BackstoryDef>
+        <defName>Archeon_Bartender</defName>
+        <identifier>Archeon_Bartender</identifier>
+        <title>Bartender</title>
+        <titleShort>Bartender</titleShort>
+        <description>[PAWN_nameDef] ran a privately owned bar on Space Station 14, serving drinks and listening to the stories of the crew. [PAWN_possessive] establishment was a hub for relaxation and gossip.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>2</Cooking>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Civilian</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chef -->
+
+    <BackstoryDef>
+        <defName>Archeon_Chef</defName>
+        <identifier>Archeon_Chef</identifier>
+        <title>Chef</title>
+        <titleShort>Chef</titleShort>
+        <description>[PAWN_nameDef] cooked meals for the crew of Space Station 14, ensuring everyone was well-fed and satisfied. [PAWN_possessive] culinary skills brought comfort and energy to the station.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Social>1</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Civilian</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Clown -->
+
+    <BackstoryDef>
+        <defName>Archeon_Clown</defName>
+        <identifier>Archeon_Clown</identifier>
+        <title>Clown</title>
+        <titleShort>Clown</titleShort>
+        <description>[PAWN_nameDef] was the infamous clown of Space Station 14, known for [PAWN_possessive] relentless pranks and jokes—often at the expense of others. [PAWN_pronoun] brought chaos and laughter, though not always in equal measure.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>2</Social>
+            <Artistic>2</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Clown</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Mime -->
+
+    <BackstoryDef>
+        <defName>Archeon_Mime</defName>
+        <identifier>Archeon_Mime</identifier>
+        <title>Mime</title>
+        <titleShort>Mime</titleShort>
+        <description>[PAWN_nameDef] was the silent mime of Space Station 14, expressing [PAWN_possessive] thoughts through gestures alone. [PAWN_pronoun] screamed internally, rarely speaking, and often struggled with social interactions.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>-5</Social>
+            <Artistic>3</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Civilian</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Zookeeper -->
+
+    <BackstoryDef>
+        <defName>Archeon_Zookeeper</defName>
+        <identifier>Archeon_Zookeeper</identifier>
+        <title>Zookeeper</title>
+        <titleShort>Zookeeper</titleShort>
+        <description>[PAWN_nameDef] managed the small zoo exhibit on Space Station 14, ensuring the animals were cared for and did not escape. [PAWN_possessive] dedication kept the station’s wildlife safe and healthy.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Animals>4</Animals>
+            <Plants>2</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Civilian</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Security Officer -->
+
+    <BackstoryDef>
+        <defName>Archeon_Security_Officer</defName>
+        <identifier>Archeon_Security_Officer</identifier>
+        <title>Security Officer</title>
+        <titleShort>Security Officer</titleShort>
+        <description>[PAWN_nameDef] patrolled the halls of Space Station 14, legally carrying firearms and enforcing the rules. [PAWN_pronoun] was often disliked by most, but kept order through authority and presence.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>-1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Security</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Security Cadet -->
+
+    <BackstoryDef>
+        <defName>Archeon_Security_Cadet</defName>
+        <identifier>Archeon_Security_Cadet</identifier>
+        <title>Security Cadet</title>
+        <titleShort>Security Cadet</titleShort>
+        <description>[PAWN_nameDef] was a rookie security officer on Space Station 14, learning the ropes and following orders from senior staff. [PAWN_pronoun] aspired to become a seasoned officer one day.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Security</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Senior Security Officer -->
+
+    <BackstoryDef>
+        <defName>Archeon_Senior_Security_Officer</defName>
+        <identifier>Archeon_Senior_Security_Officer</identifier>
+        <title>Senior Security Officer</title>
+        <titleShort>Senior Officer</titleShort>
+        <description>[PAWN_nameDef] was a seasoned security officer on Space Station 14, responsible for training cadets and maintaining discipline. [PAWN_possessive] experience made [PAWN_objective] a respected figure among the security staff.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
             <Social>2</Social>
         </skillGains>
         <workDisables />
@@ -287,276 +373,251 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Gorlex</li>
+            <li>Archeon_Security</li>
         </spawnCategories>
     </BackstoryDef>
 
-    <!-- Gorlex scrapper -->
+    <!-- Warden -->
 
     <BackstoryDef>
-        <defName>Archeon_Gorlex_Scrapper</defName>
-        <identifier>Archeon_Gorlex_Scrapper</identifier>
-        <title>Gorlex scrapper</title>
-        <titleShort>Gorlex scrapper</titleShort>
-        <description>Living off the remains of battles, this person scavenged weapons, armor, and supplies for the Gorlex Marauders. Their knack for finding and repurposing gear made them a valuable asset, even if their methods were crude.</description>
+        <defName>Archeon_Warden</defName>
+        <identifier>Archeon_Warden</identifier>
+        <title>Warden</title>
+        <titleShort>Warden</titleShort>
+        <description>[PAWN_nameDef] was in charge of the armory and brig on Space Station 14, serving as second in command of the security forces. [PAWN_possessive] authority kept dangerous individuals contained and weapons secure.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Shooting>4</Shooting>
-            <Crafting>3</Crafting>
-            <Melee>2</Melee>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Gorlex</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Gorlex berserker -->
-
-    <BackstoryDef>
-        <defName>Archeon_Gorlex_Berserker</defName>
-        <identifier>Archeon_Gorlex_Berserker</identifier>
-        <title>Gorlex berserker</title>
-        <titleShort>Gorlex berserker</titleShort>
-        <description>Fueled by rage and a thirst for destruction, this person was the first to charge into battle, wielding melee weapons with reckless abandon. Their chaotic fighting style made them a terror on the battlefield, but a liability in any organized plan.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Melee>6</Melee>
             <Shooting>3</Shooting>
-            <Construction>1</Construction>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Hulk</bodyTypeMale>
-        <bodyTypeFemale>Hulk</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Gorlex</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Gorlex saboteur -->
-
-    <BackstoryDef>
-        <defName>Archeon_Gorlex_Saboteur</defName>
-        <identifier>Archeon_Gorlex_Saboteur</identifier>
-        <title>Gorlex saboteur</title>
-        <titleShort>Gorlex saboteur</titleShort>
-        <description>Specializing in causing chaos behind enemy lines, this person was adept at planting explosives, disabling machinery, and spreading panic. Their actions often left a trail of destruction that the Gorlex Marauders thrived on.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Shooting>4</Shooting>
-            <Intellectual>3</Intellectual>
-            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+            <Social>1</Social>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Gorlex</li>
+            <li>Archeon_Security</li>
         </spawnCategories>
     </BackstoryDef>
 
-    <!--___ Childhood ___-->
-
-    <!-- Gorlex new blood trainee -->
+    <!-- Engineer -->
 
     <BackstoryDef>
-        <defName>Archeon_Gorlex_New_Blood_Trainee</defName>
-        <identifier>Archeon_Gorlex_New_Blood_Trainee</identifier>
-        <title>Gorlex new blood trainee</title>
-        <titleShort>New blood</titleShort>
-        <description>Recruited into the Gorlex Marauders' "New Bloods Program" at a young age, this child was trained in combat and survival skills. Their childhood was spent learning to fight, shoot, and survive in hostile environments, preparing them for a life of chaos and violence.</description>
-        <slot>Childhood</slot>
+        <defName>Archeon_Engineer</defName>
+        <identifier>Archeon_Engineer</identifier>
+        <title>Engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>[PAWN_nameDef] managed power, repairs, and breaches on Space Station 14, and constructed new parts of the station. [PAWN_possessive] technical skills kept the station running smoothly.</description>
+        <slot>Adulthood</slot>
         <skillGains>
-            <Shooting>3</Shooting>
-            <Melee>2</Melee>
+            <Construction>3</Construction>
+            <Crafting>2</Crafting>
+            <Intellectual>1</Intellectual>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Gorlex_Child</li>
+            <li>Archeon_Engineering</li>
         </spawnCategories>
     </BackstoryDef>
 
-    <!-- Gorlex new blood scout -->
+    <!-- Technical Assistant -->
 
     <BackstoryDef>
-        <defName>Archeon_Gorlex_New_Blood_Scout</defName>
-        <identifier>Archeon_Gorlex_New_Blood_Scout</identifier>
-        <title>Gorlex new blood scout</title>
-        <titleShort>Scout</titleShort>
-        <description>As part of the "New Bloods Program," this child was trained to scout enemy positions and navigate dangerous terrain. Their early years were spent honing their agility, stealth, and situational awareness, making them a valuable asset to the Marauders.</description>
-        <slot>Childhood</slot>
+        <defName>Archeon_Technical_Assistant</defName>
+        <identifier>Archeon_Technical_Assistant</identifier>
+        <title>Technical Assistant</title>
+        <titleShort>Tech Assistant</titleShort>
+        <description>[PAWN_nameDef] was new to engineering on Space Station 14, assisting with repairs and learning the trade from senior staff. [PAWN_pronoun] was eager to prove [PAWN_objective]self.</description>
+        <slot>Adulthood</slot>
         <skillGains>
+            <Construction>1</Construction>
+            <Crafting>1</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Engineering</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Senior Engineer -->
+
+    <BackstoryDef>
+        <defName>Archeon_Senior_Engineer</defName>
+        <identifier>Archeon_Senior_Engineer</identifier>
+        <title>Senior Engineer</title>
+        <titleShort>Senior Engineer</titleShort>
+        <description>[PAWN_nameDef] was a seasoned engineer on Space Station 14, responsible for teaching technical assistants and overseeing major repairs and construction projects.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>2</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Engineering</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Atmospheric Technician -->
+
+    <BackstoryDef>
+        <defName>Archeon_Atmospheric_Technician</defName>
+        <identifier>Archeon_Atmospheric_Technician</identifier>
+        <title>Atmospheric Technician</title>
+        <titleShort>Atmos Tech</titleShort>
+        <description>[PAWN_nameDef] ensured Space Station 14 always had breathable air, maintaining complex atmospheric systems. [PAWN_pronoun] was also known for [PAWN_possessive] knowledge of gases—and sometimes, explosives.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Engineering</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Scientist -->
+
+    <BackstoryDef>
+        <defName>Archeon_Scientist</defName>
+        <identifier>Archeon_Scientist</identifier>
+        <title>Scientist</title>
+        <titleShort>Scientist</titleShort>
+        <description>[PAWN_nameDef] studied alien artifacts and space-time anomalies on Space Station 14, bringing in funds for the research server. [PAWN_pronoun] was known for [PAWN_possessive] curiosity—and occasional explosions.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Research</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Research Assistant -->
+
+    <BackstoryDef>
+        <defName>Archeon_Research_Assistant</defName>
+        <identifier>Archeon_Research_Assistant</identifier>
+        <title>Research Assistant</title>
+        <titleShort>Research Assistant</titleShort>
+        <description>[PAWN_nameDef] was new to the research department on Space Station 14, assisting scientists with experiments and learning the basics of research. [PAWN_pronoun] was eager to make discoveries.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Research</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Senior Scientist -->
+
+    <BackstoryDef>
+        <defName>Archeon_Senior_Scientist</defName>
+        <identifier>Archeon_Senior_Scientist</identifier>
+        <title>Senior Scientist</title>
+        <titleShort>Senior Scientist</titleShort>
+        <description>[PAWN_nameDef] was a senior scientist on Space Station 14, responsible for teaching research assistants and leading advanced experiments. [PAWN_possessive] experience was invaluable to the department.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Research</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Cargo Technician -->
+
+    <BackstoryDef>
+        <defName>Archeon_Cargo_Technician</defName>
+        <identifier>Archeon_Cargo_Technician</identifier>
+        <title>Cargo Technician</title>
+        <titleShort>Cargo Tech</titleShort>
+        <description>[PAWN_nameDef] worked in the cargo department on Space Station 14, ordering pizzas and takeout for the crew and shuttling supplies back to the station. [PAWN_pronoun] ensured every order was received and delivered on time.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Cargo</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Salvage Specialist -->
+
+    <BackstoryDef>
+        <defName>Archeon_Salvage_Specialist</defName>
+        <identifier>Archeon_Salvage_Specialist</identifier>
+        <title>Salvage Specialist</title>
+        <titleShort>Salvager</titleShort>
+        <description>[PAWN_nameDef] was a miner and explorer on Space Station 14, frequently leaving the station to salvage wrecks and battle megafauna. [PAWN_pronoun] was treated with the same respect as security—few dared to cross [PAWN_objective].</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Mining>4</Mining>
             <Shooting>2</Shooting>
             <Melee>2</Melee>
-            <Intellectual>1</Intellectual>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Gorlex_Child</li>
+            <li>Archeon_Salvage</li>
         </spawnCategories>
     </BackstoryDef>
 
-    <!--_____ Donk Corporation _____-->
-
-    <!--___ Adulthood ___-->
-
-    <!-- Donk chef -->
+    <!-- Doctor -->
 
     <BackstoryDef>
-        <defName>Archeon_Donk_Chef</defName>
-        <identifier>Archeon_Donk_Chef</identifier>
-        <title>Donk chef</title>
-        <titleShort>Chef</titleShort>
-        <description>Working in the high-speed kitchens of Donk Corporation, this person mastered the art of creating Donkpockets (TM) and similar products. Their days were spent perfecting recipes and ensuring every product met the company's exacting standards.</description>
+        <defName>Archeon_Doctor</defName>
+        <identifier>Archeon_Doctor</identifier>
+        <title>Doctor</title>
+        <titleShort>Doctor</titleShort>
+        <description>[PAWN_nameDef] was a doctor on Space Station 14, patching wounds, administering drugs, and ensuring the crew survived the dangers of station life.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Cooking>6</Cooking>
+            <Medicine>4</Medicine>
             <Intellectual>2</Intellectual>
-            <Crafting>2</Crafting>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Donk</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Donk logistics manager -->
-
-    <BackstoryDef>
-        <defName>Archeon_Donk_Logistics_Manager</defName>
-        <identifier>Archeon_Donk_Logistics_Manager</identifier>
-        <title>Donk logistics manager</title>
-        <titleShort>Logistics manager</titleShort>
-        <description>As a logistics manager for Donk Corporation, this person ensured that Donkpockets (TM) and other products were delivered on time. They coordinated fleets of vehicles and optimized supply chains to keep the syndicate's operations running smoothly.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Intellectual>5</Intellectual>
-            <Social>3</Social>
-            <Cooking>2</Cooking>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Donk</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Donk factory worker -->
-
-    <BackstoryDef>
-        <defName>Archeon_Donk_Factory_Worker</defName>
-        <identifier>Archeon_Donk_Factory_Worker</identifier>
-        <title>Donk factory worker</title>
-        <titleShort>Factory worker</titleShort>
-        <description>This person worked on the assembly lines of Donk Corporation, producing Donkpockets (TM) and similar products at an industrial scale. Their repetitive work honed their crafting skills and gave them a deep understanding of production processes.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Crafting>5</Crafting>
-            <Cooking>3</Cooking>
-            <Intellectual>1</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Hulk</bodyTypeMale>
-        <bodyTypeFemale>Hulk</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Donk</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Donk distribution specialist -->
-
-    <BackstoryDef>
-        <defName>Archeon_Donk_Distribution_Specialist</defName>
-        <identifier>Archeon_Donk_Distribution_Specialist</identifier>
-        <title>Donk distribution specialist</title>
-        <titleShort>Distribution specialist</titleShort>
-        <description>Tasked with ensuring the efficient delivery of Donk Corporation's products, this person specialized in planning routes and managing inventory. Their work was critical to keeping the syndicate's logistics network operational.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-            <Social>2</Social>
-            <Cooking>2</Cooking>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Donk</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--___ Childhood ___-->
-
-    <!-- Donk factory apprentice -->
-
-    <BackstoryDef>
-        <defName>Archeon_Donk_Factory_Apprentice</defName>
-        <identifier>Archeon_Donk_Factory_Apprentice</identifier>
-        <title>Donk factory apprentice</title>
-        <titleShort>Factory apprentice</titleShort>
-        <description>Growing up near a Donk Corporation factory, this child spent their early years helping on the assembly lines. They learned the basics of production and logistics, gaining a strong work ethic and an understanding of industrial processes.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Crafting>2</Crafting>
-            <Intellectual>1</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Donk_Childs</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Donk kitchen helper -->
-
-    <BackstoryDef>
-        <defName>Archeon_Donk_Kitchen_Helper</defName>
-        <identifier>Archeon_Donk_Kitchen_Helper</identifier>
-        <title>Donk kitchen helper</title>
-        <titleShort>Kitchen helper</titleShort>
-        <description>This child grew up assisting in a Donk Corporation test kitchen, helping prepare and package Donkpockets (TM). They developed a knack for cooking and an appreciation for efficiency in food preparation.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Cooking>2</Cooking>
-            <Social>1</Social>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Donk_Childs</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--_____ Waffle Corporation _____-->
-
-    <!--___ Adulthood ___-->
-
-    <!-- Waffle chef -->
-
-    <BackstoryDef>
-        <defName>Archeon_Waffle_Chef</defName>
-        <identifier>Archeon_Waffle_Chef</identifier>
-        <title>Waffle chef</title>
-        <titleShort>Chef</titleShort>
-        <description>As a chef for the Waffle Corporation, this person mastered the art of creating the perfect waffle. Their culinary expertise and creativity in the kitchen made them a key contributor to the company's reputation for excellence.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Cooking>6</Cooking>
-            <Intellectual>3</Intellectual>
             <Social>1</Social>
         </skillGains>
         <workDisables />
@@ -564,256 +625,75 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Waffle</li>
+            <li>Archeon_Medical</li>
         </spawnCategories>
     </BackstoryDef>
 
-    <!-- Waffle research and development scientist -->
+    <!-- Medical Assistant -->
 
     <BackstoryDef>
-        <defName>Archeon_Waffle_Research_And_Development_Scientist</defName>
-        <identifier>Archeon_Waffle_Research_And_Development_Scientist</identifier>
-        <title>Waffle research and development scientist</title>
-        <titleShort>Research scientist</titleShort>
-        <description>Working in the research and development labs of Waffle Corporation, this person developed new recipes, cooking techniques, and food technologies. Their work pushed the boundaries of culinary science and supported the syndicate's broader goals.</description>
+        <defName>Archeon_Medical_Assistant</defName>
+        <identifier>Archeon_Medical_Assistant</identifier>
+        <title>Medical Assistant</title>
+        <titleShort>Med Assistant</titleShort>
+        <description>[PAWN_nameDef] was new to the medical department on Space Station 14, assisting doctors and learning to treat injuries and illnesses.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Intellectual>6</Intellectual>
-            <Cooking>3</Cooking>
-            <Crafting>2</Crafting>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Waffle</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Waffle technician -->
-
-    <BackstoryDef>
-        <defName>Archeon_Waffle_Technician</defName>
-        <identifier>Archeon_Waffle_Technician</identifier>
-        <title>Waffle technician</title>
-        <titleShort>Technician</titleShort>
-        <description>This person maintained and optimized the advanced cooking equipment used by Waffle Corporation. Their technical expertise ensured that every waffle was cooked to perfection, and their innovations improved efficiency across the board.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Intellectual>5</Intellectual>
-            <Crafting>3</Crafting>
-            <Cooking>2</Cooking>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Waffle</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Waffle operations manager -->
-
-    <BackstoryDef>
-        <defName>Archeon_Waffle_Operations_Manager</defName>
-        <identifier>Archeon_Waffle_Operations_Manager</identifier>
-        <title>Waffle operations manager</title>
-        <titleShort>Operations manager</titleShort>
-        <description>As an operations manager, this person oversaw the day-to-day activities of Waffle Corporation's facilities. They balanced logistics, staff management, and quality control to ensure smooth operations and satisfied customers.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-            <Social>3</Social>
-            <Cooking>2</Cooking>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Waffle</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--___ Childhood ___-->
-
-    <!-- Waffle kitchen apprentice -->
-
-    <BackstoryDef>
-        <defName>Archeon_Waffle_Kitchen_Apprentice</defName>
-        <identifier>Archeon_Waffle_Kitchen_Apprentice</identifier>
-        <title>Waffle kitchen apprentice</title>
-        <titleShort>Kitchen apprentice</titleShort>
-        <description>Growing up in the bustling kitchens of Waffle Corporation, this child spent their early years assisting chefs and learning the basics of cooking. Their exposure to culinary techniques and teamwork shaped their passion for food preparation.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Cooking>3</Cooking>
-            <Social>1</Social>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Waffle_Child</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Waffle lab assistant -->
-
-    <BackstoryDef>
-        <defName>Archeon_Waffle_Lab_Assistant</defName>
-        <identifier>Archeon_Waffle_Lab_Assistant</identifier>
-        <title>Waffle lab assistant</title>
-        <titleShort>Lab assistant</titleShort>
-        <description>This child grew up helping in Waffle Corporation's research and development labs. They spent their days measuring ingredients, running experiments, and learning the science behind perfecting waffles and other culinary innovations.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Intellectual>3</Intellectual>
-            <Cooking>2</Cooking>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Waffle_Child</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--_____ Interdyne _____-->
-
-    <!--___ Adulthood ___-->
-
-    <!-- Interdyne field medic -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Field_Medic</defName>
-        <identifier>Archeon_Interdyne_Field_Medic</identifier>
-        <title>Interdyne field medic</title>
-        <titleShort>Field medic</titleShort>
-        <description>Trained to provide emergency care in dangerous environments, this person worked as a field medic for Interdyne. While they saved many lives, they also carried out questionable procedures under orders from the syndicate.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Medicine>6</Medicine>
-            <Shooting>3</Shooting>
-            <Social>2</Social>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Interdyne</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Interdyne surgeon -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Surgeon</defName>
-        <identifier>Archeon_Interdyne_Surgeon</identifier>
-        <title>Interdyne surgeon</title>
-        <titleShort>Surgeon</titleShort>
-        <description>This person worked as a surgeon for Interdyne, performing life-saving operations as well as experimental procedures for the syndicate. Their skill with a scalpel was unmatched, but their ethics were often called into question.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Medicine>7</Medicine>
-            <Intellectual>4</Intellectual>
-            <Crafting>2</Crafting>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Interdyne</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Interdyne researcher -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Researcher</defName>
-        <identifier>Archeon_Interdyne_Researcher</identifier>
-        <title>Interdyne researcher</title>
-        <titleShort>Researcher</titleShort>
-        <description>As a researcher for Interdyne, this person developed new medical technologies and treatments. However, their work often involved unethical experiments on unwilling subjects, all in the name of progress.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Medicine>5</Medicine>
-            <Intellectual>5</Intellectual>
-            <Social>1</Social>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Interdyne</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Interdyne organ harvester -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Organ_Harvester</defName>
-        <identifier>Archeon_Interdyne_Organ_Harvester</identifier>
-        <title>Interdyne organ harvester</title>
-        <titleShort>Organ harvester</titleShort>
-        <description>This person worked in the shadows of Interdyne, harvesting organs from both willing and unwilling donors. Their expertise in anatomy and efficiency in extraction made them a valuable, if morally dubious, asset to the syndicate.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Medicine>6</Medicine>
-            <Crafting>3</Crafting>
-            <Social>2</Social>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Archeon_Interdyne</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!--___ Childhood ___-->
-
-    <!-- Interdyne medic apprentice -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Medic_Apprentice</defName>
-        <identifier>Archeon_Interdyne_Medic_Apprentice</identifier>
-        <title>Interdyne medic apprentice</title>
-        <titleShort>Medic apprentice</titleShort>
-        <description>Growing up in the shadow of Interdyne's medical facilities, this child was trained in basic first aid and medical procedures. They spent their youth assisting doctors and learning the fundamentals of medicine.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Medicine>3</Medicine>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <workDisables />
-        <requiredWorkTags />
-        <spawnCategories>
-            <li>Archeon_Interdyne_Child</li>
-        </spawnCategories>
-    </BackstoryDef>
-
-    <!-- Interdyne lab assistant -->
-
-    <BackstoryDef>
-        <defName>Archeon_Interdyne_Lab_Assistant</defName>
-        <identifier>Archeon_Interdyne_Lab_Assistant</identifier>
-        <title>Interdyne lab assistant</title>
-        <titleShort>Lab assistant</titleShort>
-        <description>This child grew up assisting in Interdyne's research labs, learning to handle medical equipment and conduct experiments. Their early exposure to cutting-edge medical science sparked a lifelong interest in research and innovation.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Intellectual>3</Intellectual>
             <Medicine>2</Medicine>
+            <Intellectual>1</Intellectual>
         </skillGains>
         <workDisables />
         <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
-            <li>Archeon_Interdyne_Child</li>
+            <li>Archeon_Medical</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chemist -->
+
+    <BackstoryDef>
+        <defName>Archeon_Chemist</defName>
+        <identifier>Archeon_Chemist</identifier>
+        <title>Chemist</title>
+        <titleShort>Chemist</titleShort>
+        <description>[PAWN_nameDef] worked as a chemist on Space Station 14, creating drugs and pharmaceuticals to heal—or sometimes harm—the crew. [PAWN_possessive] knowledge of chemicals was unmatched.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>3</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Medical</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Passenger -->
+
+    <BackstoryDef>
+        <defName>Archeon_Passenger</defName>
+        <identifier>Archeon_Passenger</identifier>
+        <title>Passenger</title>
+        <titleShort>Passenger</titleShort>
+        <description>[PAWN_nameDef], known as a "Tider" or "Greyshirt," wore a grey jumpsuit and gasmask, roaming the maintenance halls of Space Station 14. [PAWN_pronoun] was always looking for someone to steal from or beat.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>1</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Archeon_Passenger</li>
         </spawnCategories>
     </BackstoryDef>
 
