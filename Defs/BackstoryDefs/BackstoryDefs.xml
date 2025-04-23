@@ -3,6 +3,219 @@
 
     <!--__________ Backstories __________-->
 
+    <!--_____ Cybersun Industries _____-->
+
+    <!--___ Adulthood ___-->
+
+    <!-- Cybersun prodigy -->
+
+    <BackstoryDef>
+        <defName>Archeon_Cybersun_Prodigy</defName>
+        <identifier>Archeon_Cybersun_Prodigy</identifier>
+        <title>Cybersun prodigy</title>
+        <titleShort>Prodigy</titleShort>
+        <description>Raised in the high-tech halls of the Cybersun Industries, this person learned to build, repair, and innovate with machines from a young age. Their life revolved around cybernetics, AI, and relentless research.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Construction>3</Construction>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Cybersun engineer -->
+
+    <BackstoryDef>
+        <defName>Archeon_Cybersun_Engineer</defName>
+        <identifier>Archeon_Cybersun_Engineer</identifier>
+        <title>Cybersun engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>As a key member of Cybersun Industries, this person specialized in designing and maintaining advanced cybernetic systems. Their expertise in robotics and AI development made them an invaluable asset in the company's relentless pursuit of innovation.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Construction>4</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Cybersun technician -->
+
+    <BackstoryDef>
+        <defName>Archeon_Cybersun_Technician</defName>
+        <identifier>Archeon_Cybersun_Technician</identifier>
+        <title>Cybersun technician</title>
+        <titleShort>Technician</titleShort>
+        <description>Trained in the intricate workings of cybernetic implants and AI systems, this person spent their days troubleshooting and optimizing Cybersun's cutting-edge technologies. Their hands-on experience with machines honed their technical skills to perfection.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Construction>3</Construction>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!--_____ Interdyne _____-->
+
+    <!--___ Adulthood ___-->
+
+    <!-- Interdyne field medic -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Field_Medic</defName>
+        <identifier>Archeon_Interdyne_Field_Medic</identifier>
+        <title>Interdyne field medic</title>
+        <titleShort>Field medic</titleShort>
+        <description>Trained to provide emergency care in dangerous environments, this person worked as a field medic for Interdyne. While they saved many lives, they also carried out questionable procedures under orders from the syndicate.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Interdyne surgeon -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Surgeon</defName>
+        <identifier>Archeon_Interdyne_Surgeon</identifier>
+        <title>Interdyne surgeon</title>
+        <titleShort>Surgeon</titleShort>
+        <description>This person worked as a surgeon for Interdyne, performing life-saving operations as well as experimental procedures for the syndicate. Their skill with a scalpel was unmatched, but their ethics were often called into question.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Interdyne researcher -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Researcher</defName>
+        <identifier>Archeon_Interdyne_Researcher</identifier>
+        <title>Interdyne researcher</title>
+        <titleShort>Researcher</titleShort>
+        <description>As a researcher for Interdyne, this person developed new medical technologies and treatments. However, their work often involved unethical experiments on unwilling subjects, all in the name of progress.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>5</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Interdyne organ harvester -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Organ_Harvester</defName>
+        <identifier>Archeon_Interdyne_Organ_Harvester</identifier>
+        <title>Interdyne organ harvester</title>
+        <titleShort>Organ harvester</titleShort>
+        <description>This person worked in the shadows of Interdyne, harvesting organs from both willing and unwilling donors. Their expertise in anatomy and efficiency in extraction made them a valuable, if morally dubious, asset to the syndicate.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!--___ Childhood ___-->
+
+    <!-- Interdyne medic apprentice -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Medic_Apprentice</defName>
+        <identifier>Archeon_Interdyne_Medic_Apprentice</identifier>
+        <title>Interdyne medic apprentice</title>
+        <titleShort>Medic apprentice</titleShort>
+        <description>Growing up in the shadow of Interdyne's medical facilities, this child was trained in basic first aid and medical procedures. They spent their youth assisting doctors and learning the fundamentals of medicine.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Interdyne lab assistant -->
+
+    <BackstoryDef>
+        <defName>Archeon_Interdyne_Lab_Assistant</defName>
+        <identifier>Archeon_Interdyne_Lab_Assistant</identifier>
+        <title>Interdyne lab assistant</title>
+        <titleShort>Lab assistant</titleShort>
+        <description>This child grew up assisting in Interdyne's research labs, learning to handle medical equipment and conduct experiments. Their early exposure to cutting-edge medical science sparked a lifelong interest in research and innovation.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables />
+        <requiredWorkTags />
+        <spawnCategories>
+            <li>Spacer</li>
+        </spawnCategories>
+    </BackstoryDef>
+    
     <!--_______ Nanotrasen _______-->
     
     <!--_____ Space Station 14 _____-->
