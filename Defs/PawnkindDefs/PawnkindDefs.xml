@@ -7,14 +7,24 @@
     
     <!--_____ Nanotrasen _____-->
 
+    <!--___ Base ___-->
 
+  <PawnKindDef Name="Archeon_Nanotrasen_kindBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>Archeon_Faction_Nanotrasen</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+        <forcedTraits />
+        <disallowedTraits />
+        <requiredWorkTags />
+  </PawnKindDef>
 
     
     <!--_____ Cybersun Industries _____-->
 
     <!--___ Base ___-->
 
-  <PawnKindDef Name="Archeon_kindBase" Abstract="True">
+  <PawnKindDef Name="Archeon_Syndicate_kindBase" Abstract="True">
     <race>Human</race>
     <defaultFactionType>Archeon_Faction_Syndicate</defaultFactionType>
     <chemicalAddictionChance>0.02</chemicalAddictionChance>
